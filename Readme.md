@@ -4,7 +4,7 @@ This repo contains the terraform code in answer to the IaC test written by Adam 
 
 ## Deploy
 
-I have created a run powershel script for deployment and destroying infrastructur
+I have created a run powershell script for deployment and destroying infrastructur
 
 1. Update vars.ps1 with credentials for accessing azure
 2. From powershell change the directory to the run the root of the repo
