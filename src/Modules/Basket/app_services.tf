@@ -1,3 +1,5 @@
+# Definition of app services used in the module
+
 resource "azurerm_app_service" "app_basket_app" {
     for_each = var.app_definitions
 

@@ -1,3 +1,5 @@
+# Defintion terraform and provider settings for the module
+
 terraform {
   required_version = ">= 0.13.0" # Terraform 0.13.0 required for input variable validation
 

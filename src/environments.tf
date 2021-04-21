@@ -1,3 +1,6 @@
+# Environments local map. Each key is a setting, and subkeys correspond to the terraform workspace name
+# This is certainly not the only way to support environments, but demonstates using workspaces to change terraform behaviour
+
 locals {
     nameprefix = {
         default = "adam"

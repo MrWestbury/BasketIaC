@@ -1,4 +1,4 @@
-param([switch] $destroy)
+param([switch] $destroy) # Switch to make script follow destroy path
 
 ./vars.ps1
 

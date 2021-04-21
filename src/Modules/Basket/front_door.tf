@@ -1,3 +1,5 @@
+# Definition of azure front door service
+
 resource "azurerm_frontdoor" "basket_frontdoor" {
     name                = "${var.nameprefix}basketfrontdoor"
     # location            = var.location
@@ -38,6 +40,7 @@ resource "azurerm_frontdoor" "basket_frontdoor" {
         }
     }
 
+    # Dynamically create routing rules for each app definition
     dynamic "routing_rule" {
         for_each = var.app_definitions
 

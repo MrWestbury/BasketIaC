@@ -1,3 +1,5 @@
+# Main file containing terraform settings
+
 terraform {
     # Setting local backend for testing.
     backend "local" {

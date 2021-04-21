@@ -1,3 +1,5 @@
+# Definition of storage accounts for the module
+
 resource "azurerm_storage_account" "basket_storage_account" {
     name                     = "${var.nameprefix}basketstorage"
     location                 = var.location

@@ -1,3 +1,5 @@
+# Definition for vnet and subnets for the module 
+
 resource "azurerm_virtual_network" "basket_vnet" {
     name                = "${var.nameprefix}BasketVNET"
     location            = var.location

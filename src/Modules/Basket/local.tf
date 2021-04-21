@@ -1,3 +1,4 @@
+# Module specific tags
 locals {
     tags = {
         Service      = "Basket"

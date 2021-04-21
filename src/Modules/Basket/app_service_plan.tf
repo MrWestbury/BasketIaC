@@ -1,3 +1,5 @@
+# Definition of app service plans for the module
+
 resource "azurerm_app_service_plan" "basket_app_plan" {
     name = "${var.nameprefix}basketappservice"
     location = var.location
