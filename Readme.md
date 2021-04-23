@@ -2,6 +2,8 @@
 
 This repo contains the terraform code in answer to the IaC test written by Adam Eastbury
 
+Dev time: approx 3.5-4 hrs
+
 ## Deploy
 
 I have created a run powershell script for deployment and destroying infrastructur
