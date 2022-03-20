@@ -1,7 +1,7 @@
 # Definition for vnet and subnets for the module 
 
 resource "azurerm_virtual_network" "basket_vnet" {
-    name                = "${var.nameprefix}BasketVNET"
+    name                = "${lower(var.nameprefix)}-basket-vnet"
     location            = var.location
     resource_group_name = azurerm_resource_group.basket_rg.name
     address_space       = [var.vnet_ip_address_space]
